@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Source of project
+
+Project build for test at L'Atelier
+
+I left the default readme bellow from React.
+
 ## Available Scripts
 
 In the project directory, you can run:
