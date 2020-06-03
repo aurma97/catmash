@@ -1,7 +1,9 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 body {
-  background-color: seashell;
+  background-image:
+    linear-gradient(90deg, #ffefcf, rgba(124, 212, 207, 0)),
+    repeating-linear-gradient(-45deg, #fff9ed, #fff5e2 1.5px, #49c8c1 2px, #ffefcf 4px);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -24,4 +26,42 @@ code {
 
 .is-logout:hover {
   color: #FF5000
+}
+
+.image_card{
+  margin: 50px, 0, 0, 0;
+  border-radius: 5px;
+}
+
+.image_cat{
+  height: 40vh;
+  cursor: pointer;
+}
+
+.versus{
+  margin-top: 15vh;
+  height: 10vh;
+  width: 7vh;
+}
+
+.header{
+  border-radius: 10px;
+  background-image:
+    linear-gradient(90deg, #ffefcf, rgba(124, 212, 207, 0)),
+    repeating-linear-gradient(-45deg, #49c8c1, #49c8c1 1px, #ffefcf 2px, #ffefcf 5px);
+  padding: 5px;
+  margin: 20px;
+}
+
+.rank_card{
+  width: 13.2vw;
+}
+
+.rank_image{
+  height: 15vh;
+  cursor: pointer;
+}
+
+.footer{
+  padding-top: 10vh;
 }

@@ -1,0 +1,7 @@
+votes = {
+    username: "aurma",
+    cats_voted: [...cat],
+    cats_unvoted: [...cat]
+}
+
+Au vote, augmenter le score du chat et ajouter le chat voté dans la liste des chats votés par l'utilisateur connecté
